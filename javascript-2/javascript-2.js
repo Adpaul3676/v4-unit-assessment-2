@@ -174,7 +174,7 @@ ellensInfo.email = 'ellen@email.com'
 */
 
 //CODE HERE
-let {email} = ellensInfo
+let {email} = ellensInfo;
 ////////////////////PROBLEM 8////////////////////
 /*
   In a single expression (one line), save the zip code and state 
@@ -182,7 +182,7 @@ let {email} = ellensInfo
 */
 
 //CODE HERE
-let {state, zipCode} = ellensInfo
+let {state, zipCode} = ellensInfo;
 //////////////////////////////////PROBLEMS 9-11//////////////////////////////////
 /*
   Use the userInfo object below to complete problems 9-11.
@@ -260,7 +260,7 @@ let topic = userInfo.topics[3];
 */
 
 //CODE HERE
-let commenterId = userInfo.comments[1].responses[1].userId;
+let commenterId = userInfo.comments[1].responses[0].userId;
 ////////////////////PROBLEM 12////////////////////
 /*
   Create an object called 'person' that has the following properties. 
